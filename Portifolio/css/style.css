@@ -1,0 +1,370 @@
+
+#gif{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25%;
+    width: 250px;
+    height: 100px;
+}
+.container-nav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: rgba(27, 38, 59, 0);
+    border: 4px  white solid;
+    border-radius: 20px;
+    width: 100vw;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0px;
+    border-radius: 3px;
+    
+}
+
+p{
+    display: flex;
+    float: right;
+}
+
+
+.nav{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    color: white;
+    margin-right: 150px;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: none;
+    text-decoration: none;
+}
+
+.nav:hover{
+
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    cursor: pointer;
+    color: yellow;
+    margin-right: 150px;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: none;
+    text-decoration: none;
+}
+
+
+
+body{
+    position: relative;
+    height: 100vh;
+   background-color: rgb(27,38,59);
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    display:flex;
+    flex-wrap:inherit;
+    background-color: rgb(65,90,119);
+    background: conic-gradient(crimison 6deg);
+    height: 100vh;
+    
+    
+}
+
+.texto{
+    flex-direction: row;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+#nomeEu{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    width:  670px;
+    font-size: 50px;
+    background-color: none;
+    color: white;
+    margin-left: 50px;
+}
+
+#photo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 50%;
+    margin-top: 17%;
+    margin-left: 10%;
+    border-radius: 30px;
+}
+
+   
+
+
+
+p{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px; 
+  display: flex;
+  color: white;
+  margin-top: 10%;
+  padding: 3px;
+  border: 3px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  margin-bottom: 10%;
+
+}
+
+#textoMim{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(27,38,59);
+    
+    
+}
+
+
+#mim{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(27,38,59);
+    flex-direction: row;
+    height: 110vh;
+}
+#photoEur{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    padding-top: 10%;
+    width: 60%;
+    height: 70%;
+    display: flex;
+    float: left;
+    float: inline-start;
+    margin-bottom: 12%;
+
+}
+
+#cleitonN{
+    margin-top: 8vw;;
+}
+
+#sobreMimtext {
+    display:flex;
+    padding-left:0;
+    margin-top: 30%;
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 0px;
+    width:  50%;
+    background-color: none;
+    color: white;
+    
+   
+}
+
+
+.container-texto{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(13,27,42);
+    height: 100vh;
+    
+}
+
+.texto-projeto{
+    color: white;
+     width: 100vw;
+    height: 100px;
+   
+    display: flex;
+    align-items: center;
+    display: contents;
+}
+
+.projetosIcons{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 3%;
+    justify-content: center;
+    
+}
+
+.ProjectCard{
+    flex-wrap: wrap;
+    float: inline-end;
+    display: flex;
+    background-color: aliceblue;
+    width: 400px;
+    height: 200px;
+}
+
+#projetos{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 10%;
+     margin-top: 0%;
+     margin-bottom: 3%;
+     margin-left: none;
+}
+
+#BottomSeeMore{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#seeMore{
+    cursor: pointer;
+    margin-top: 6%;
+    margin-bottom: 20%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 23px;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: darkblue;
+}
+
+
+
+
+#containerHabilits{
+    
+    height: 100vh;
+    background-color: rgb(52, 58, 64);
+    justify-content: center;
+}
+
+.habilidade-texto{
+    display: flex;
+    height: 70vh;
+}
+.texto-habilidade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 20%;
+    margin-bottom: 30%;
+    
+}
+
+#Habilidades{
+    display: flex;
+    color: white;
+    font-size: 50px;
+    margin-top: 0%;
+    padding-top:10%;
+    justify-content: flex-start;
+    margin-left: 30%;
+    
+    
+}
+
+
+
+
+.habilitsIcon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 600px;
+    margin-top: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    float: left;
+    
+}
+
+.habilitCard{
+    align-items: center;
+    justify-content: center;
+    
+    display: flex;
+    
+    margin-bottom: 3%;
+    background-color:  none;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.img{
+
+    width: 150px;
+    height: 150px;
+}
+
+.imgPj{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+
+.containerF{
+    display: flex;
+    background-color: rgba(49, 41, 41, 0.44);  
+    width: 99vw;
+    padding-top: 0.5%;
+    
+}
+
+#text{
+    margin-left: 4%;
+    color: white;
+}
+
+
+
+#linkedinBottom{
+    
+    cursor: pointer;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    align-items: flex-start;
+    text-align:center;
+    justify-content: center;
+    margin: auto;
+    font-size: 40px;
+    border-radius: 40px ;
+    width: 500px;
+    height: 70px;
+    margin-left: 100px;
+}
+
+#linkedinBottom:hover{
+    
+    cursor: pointer;
+    background-color: yellow;
+    display: flex;
+    align-items: flex-start;
+    text-align:center;
+    justify-content: center;
+    margin: auto;
+    font-size: 40px;
+    border-radius: 40px ;
+    width: 500px;
+    height: 70px;
+    margin-left: 100px;
+}
