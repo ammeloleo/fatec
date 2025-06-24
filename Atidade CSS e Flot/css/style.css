@@ -1,0 +1,86 @@
+#logoetitulo{
+    float: left;
+    width: 100%;
+    
+}
+
+
+.imagem img{
+
+    height: 25em;
+    width: 25em;
+    margin-top: 20px;
+    margin-left: 40%;
+    background-color: aqua;
+}
+
+
+#logo img{
+
+    width: 200px;
+   
+    
+}
+
+nav{
+    
+    float: right;
+    width: 30%;
+    padding-top: 2em;
+}
+
+.topicos{
+    
+    
+    margin-right: 1px;
+    float: right;
+    border: 2px solid;
+    padding: 0.9em;
+    border-radius: 9px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+header{
+    border: 3px solid
+}
+
+nav#secao{
+    float: left;
+    width: 100%;
+    height: 30px;
+    border: 2px solid;
+    float:none ;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 1em;
+    display: flex;
+    gap: 3em;
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    display:inline;
+    gap: 2em;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+.descricaoJ{
+    border: 2px solid;
+    padding: 0.8em;
+    margin-top: 1em;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.fim{
+    border: 2px solid;
+    padding: 1em;
+    margin-top: 3.5em;
+    
+}
