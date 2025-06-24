@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quitandex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/dark-mode.css" id="dark-mode-style" disabled>
+</head>
+<body>
+    
+    <header class="navBar">
+  <div class="logo" style="font-family: 'Bangers', cursive; font-size: 2.5rem;">
+    <a href="index.html" class="home-icon" style="color: white;">
+      <i class="fas fa-shopping-basket" style="margin-right: 0.5rem;"></i></a> Quitandex
+  </div>
+
+
+        <button id="menuHamburguer" class="menu-toggle" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <nav class="navg" id="navMenu">
+            <a href="index.html" class="nav-link" style="color: white;"><i class="fas fa-home"></i> Início</a>
+            <button id="btnModo"><i class="fas fa-moon"></i> Modo Escuro</button>
+            <a href="listas-populares.html" class="nav-link" style="color: white;"><i class="fas fa-fire"></i> Listas Populares</a>
+            <a href="sobre.html" class="nav-link" style="color: white;"><i class="fas fa-info-circle"></i> Sobre Nós</a>
+            <button id="btnNovaLista"><i class="fas fa-plus"></i> Nova Lista</button>
+        </nav>
+        </header>
+
+
+    <main class="conteudo">
+        <div class="lista-container">
+            <div class="lista-header">
+                <select id="selecionar-lista">
+                    <option value="">Selecione uma lista</option>
+                </select>
+                <button id="btnRemoverLista"> Remover</button>
+            </div>
+            <div class="lista-content">
+                <div id="itens-lista" class="itens-container"></div>
+            </div>
+            <button>Exportar Lista</button>
+        </div>
+
+        <div class="produtos">
+            <div class="produtos">
+                <div class="Imgs" data-categoria="verduras">
+                    <img src="imgs/verduras.jpg" alt="Verduras">
+                    <span>Verduras</span>
+                </div>
+                <div class="Imgs" data-categoria="legumes">
+                    <img src="imgs/legumes.jpg" alt="Legumes">
+                    <span>Legumes</span>
+                </div>
+                <div class="Imgs" data-categoria="carnes">
+                    <img src="imgs/vista-lateral-o-chef-faz-carne-marmorizada-crua-para-bifes-em-um-carrinho.jpg" alt="Carnes">
+                    <span>Carnes</span>
+                </div>
+                <div class="Imgs" data-categoria="laticinios">
+                    <img src="imgs/laticinios.jpg" alt="Laticínios">
+                    <span>Laticínios</span>
+                </div>
+                <div class="Imgs" data-categoria="frutas">
+                    <img src="imgs/frutas.jpg" alt="Frutas">
+                    <span>Frutas</span>
+                </div>
+                <div class="Imgs" data-categoria="graos">
+                    <img src="imgs/graos.jpg" alt="Grãos">
+                    <span>Grãos</span>
+                </div>
+                <div class="Imgs" data-categoria="bebidas">
+                    <img src="imgs/sucos.jpg" alt="Bebidas">
+                    <span>Bebidas</span>
+                </div>
+                <div class="Imgs" data-categoria="padaria">
+                    <img src="imgs/padaria.jpg" alt="Padaria">
+                    <span>Padaria</span>
+                </div>
+                <div class="Imgs" data-categoria="limpeza">
+                    <img src="imgs/limpeza.jpg" alt="Limpeza">
+                    <span>Limpeza</span>
+                </div>
+                <div class="Imgs" data-categoria="higiene">
+                    <img src="imgs/higiene.jpg" alt="Higiene">
+                    <span>Higiene</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/dark-mode.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>

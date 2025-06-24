@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quitandex</title>
+  <link rel="stylesheet" href="css/style-listas.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/dark-mode.css" id="dark-mode-style" disabled>
+</head>
+<body>
+
+  <header class="navBar">
+    <div class="logo" style="font-family: 'Bangers', cursive; font-size: 2.5rem;">
+        <a href="index.html" class="home-icon">
+            <i class="fas fa-shopping-basket"></i>
+        </a> 
+        Quitandex
+    </div>
+            <button id="menuHamburguer" class="menu-toggle" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+
+    <nav class="navg" id="navMenu">
+      <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Início</a>
+      <button id="btnModo"><i class="fas fa-moon"></i> <span>Modo Escuro</span></button> 
+      <a href="sobre.html" class="nav-link"><i class="fas fa-info-circle"></i> Sobre Nós</a>
+    </nav>
+  </header>
+  <div class="container">
+            <div class="back-button">
+        <a href="listas-populares.html">
+            <i class="fas fa-arrow-left"></i> Voltar
+        </a>
+        </div>
+    <div class="image-box">
+        <img id="previewImagem" src="imgs/receita-de-tacaca.jpg" alt="Imagem do Tacacá">
+        <div class="icons">
+            <i class="fas fa-thumbs-up"></i>
+            <i class="fas fa-comment"></i>
+            <i class="fas fa-share"></i>
+            <i class="fas fa-download"></i>
+        </div>
+    <div class="comments-section">
+        <h3 class="subtitulo">Comentários</h3>
+        <div class="comment">
+            <i class="fas fa-user-circle avatar"></i>
+            <p style="text-align: left;">Uma Querida:</strong> ARRASO DE RECEITA! curou minha depressão!!!!</p>
+        </div>
+        <div class="comment">
+            <i class="fas fa-user-circle avatar"></i>
+            <p><strong>Um Jão:</strong> Substituí o sal por açúcar e não deu certo 👎</p>
+        </div>
+    </div>
+    </div>
+    <div class="content">
+        <h2 class="titulo-listas">Lista de Compras para Tacacá</h2>
+
+        <section>
+            <h3 class="subtitulo">Ingredientes principais</h3>
+            <ul class="shopping-list">
+                <li>1 litro de tucupi</li>
+                <li>200g de goma de tapioca</li>
+                <li>200g de camarão seco</li>
+                <li>4 dentes de alho</li>
+                <li>2 folhas de chicória (culantro)</li>
+                <li>2 folhas de jambu</li>
+                <li>Sal a gosto</li>
+                <li>Pimenta de cheiro a gosto</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3 class="subtitulo">Itens adicionais</h3>
+            <ul class="shopping-list">
+                <li>Limão para temperar</li>
+                <li>Pimenta-do-reino</li>
+                <li>Azeite de oliva</li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="produtos">
+</div>
+    <script src="js/dark-mode.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .navBar {
+    background: #007F61;
+}
+
+.dark-mode .lista,
+.dark-mode .categoria-card,
+.dark-mode .lista-card {
+    background: #1e1e1e;
+    color: #ffffff;
+    border-color: #333;
+}
+
+.dark-mode #selecionar-lista {
+    background: #333;
+    color: white;
+    border-color: #555;
+}
+
+.dark-mode .Imgs span {
+      background: rgba(0,0,0,0.7);
+      color: white;
+  }
+
+.dark-mode .comment{
+  background-color: #040404;
+}
+
+.avatar {
+  font-size: 1.8rem;
+  color: #007F61;
+}
+
+  .label {
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+    color: #007F61;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    font-size: 1.9rem;
+    padding: 0.2rem 0.5rem;
+    -webkit-text-stroke: #007F61 0.02px;
+    
+  }

@@ -1,0 +1,252 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  line-height: 1.6;
+  padding: 0;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007F61 ;
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 2rem;
+}
+
+.home-icon {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navg {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#btnModo {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Botão voltar */
+.back-button {
+  position: absolute;
+  top: 100px;
+  right: 30px;
+  z-index: 10;
+}
+
+.back-button a {
+  text-decoration: none;
+  color: #007F61 ;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.container {
+  max-width: 007F61;
+  margin: 2rem auto;
+  position: relative;
+  padding: 2rem;
+}
+
+/* Layout principal lado a lado */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+/* Lado esquerdo - conteúdo da lista */
+.content {
+  flex: 3;
+}
+
+.titulo-listas {
+  font-family: 'Bangers', cursive;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #007F61 ;
+}
+
+.subtitulo {
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 1.3rem;
+  color: #007F61 ;
+  margin: 1rem 0 0.5rem;
+  border-bottom: 2px solid #c8e6c9;
+  padding-bottom: 0.2rem;
+}
+
+.shopping-list {
+  font-family: 'Baloo Tammudu 2', cursive;
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.shopping-list li {
+  padding: 0.3rem 0;
+}
+
+/* Lado direito - imagem + ícones + comentários */
+.image-box {
+  flex: 1;
+  max-width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.image-box img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.icons {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  color: #007F61 ;
+}
+
+.icons i {
+  font-size: 1.5rem; /* Tamanho dos ícones */
+  color: #007F61 ; /* Cor inicial */
+  padding: 10px; /* Espaço ao redor para facilitar o clique */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Altera o cursor para indicar interatividade */
+  transition: background-color 0.3s, color 0.3s; /* Efeito de transição */
+}
+
+.icons i:hover {
+  background-color: #ddd; /* Fundo ao passar o mouse */
+  color: #007bff; /* Cor do ícone ao passar o mouse */
+}
+
+.comments-section {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #f9f9f9;
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.avatar {
+  font-size: 1.8rem;
+  color: #555;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image-box {
+    max-width: 100%;
+    margin-top: 2rem;
+  }
+
+  .back-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+}
+
+  /* Menu Hamburguer - ESTILOS ESSENCIAIS */
+  .menu-toggle {
+      display: none; /* Escondido no desktop */
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+      padding: 0.5rem;
+      position: relative;
+      z-index: 1001;
+  }
+  
+  
+  /* MOBILE - Breakpoint importante */
+  @media (max-width: 768px) {
+      .menu-toggle {
+          display: block; /* Mostra o botão */
+      }
+  
+      .navg {
+          position: fixed;
+          top: 0;
+          right: -100%;
+          width: 70%;
+          height: 100vh;
+          background: #007F61;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          transition: right 0.3s ease-out;
+          z-index: 1000;
+          padding-top: 60px;
+      }
+      
+      .navg.active {
+          right: 0;
+      }
+      
+      /* Overlay quando menu aberto */
+      .navg.active::before {
+          content: '';
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0,0,0,0.5);
+          z-index: -1;
+      }
+  }
