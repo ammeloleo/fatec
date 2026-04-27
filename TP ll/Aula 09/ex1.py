@@ -5,7 +5,7 @@ class Bebida(ABC):
 
     @abstractmethod
     def custo(self):
-        pass
+        passi
 
     @abstractmethod
     def descricao(self):
